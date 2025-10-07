@@ -70,11 +70,11 @@ const Header = () => {
                 <FileText className="h-4 w-4" />
                 <span>How it Works</span>
               </a>
-              <a href="/doctors" className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors font-medium">
+              <a href="#doctors" className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors font-medium">
                 <Phone className="h-4 w-4" />
                 <span>For Doctors</span>
               </a>
-              <a href="/blog" className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors font-medium">
+              <a href="#blog" className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors font-medium">
                 <FileText className="h-4 w-4" />
                 <span>Blog</span>
               </a>
