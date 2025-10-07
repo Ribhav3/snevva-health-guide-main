@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SNEVVA Design System - Medical AI App Branding
+All colors MUST be HSL. Based on SNEVVA brand colors: #BC84FD primary, #8A54D9 accent
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 208 13% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 208 13% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 208 13% 20%;
+
+    /* SNEVVA Brand Purple - Primary brand color #BC84FD */
+    --primary: 265 95% 76%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* SNEVVA Accent Purple - Darker purple #8A54D9 */  
+    --accent-purple: 265 60% 58%;
+    --accent-purple-foreground: 0 0% 100%;
+
+    /* Light backgrounds and surfaces */
+    --secondary: 240 9% 97%;
+    --secondary-foreground: 208 13% 20%;
+
+    /* Light grey #F6F6F9 */
+    --muted: 240 9% 97%;
+    --muted-foreground: 215 16% 47%;
+    
+    /* Mid grey #BFC3CC */
+    --border-light: 220 9% 76%;
+    
+    /* Accent colors for CTAs and interactions */
+    --accent: 265 60% 58%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 265 95% 76%;
+
+    --radius: 0.75rem;
+    
+    /* SNEVVA Custom Design Tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(265 95% 76%), hsl(265 60% 58%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(240 9% 97%));
+    --shadow-soft: 0 4px 20px -4px hsl(265 95% 76% / 0.15);
+    --shadow-elevated: 0 10px 40px -10px hsl(265 95% 76% / 0.25);
+    
+    /* Medical app specific tokens */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
