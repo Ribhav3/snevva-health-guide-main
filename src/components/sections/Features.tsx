@@ -15,6 +15,10 @@ import {
   Activity
 } from 'lucide-react';
 
+import img1 from '@/assets/health-overview-app.jpg';
+import img2 from '@/assets/womens-health-tracking.jpg';
+import img3 from '@/assets/nutrition-plans-app.jpg';
+
 const features = [
   {
     icon: Brain,
@@ -161,7 +165,7 @@ const Features = () => {
             <Card className="p-6">
               <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
                 <img 
-                  src="src/assets/health-overview-app.jpg" 
+                  src={img1} 
                   alt="Health Overview Dashboard"
                   className="w-full h-full object-cover"
                 />
@@ -173,7 +177,7 @@ const Features = () => {
             <Card className="p-6">
               <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
                 <img 
-                  src="\src\assets\womens-health-tracking.jpg" 
+                  src={img2}
                   alt="Women's Health Tracking"
                   className="w-full h-full object-cover"
                 />
@@ -185,7 +189,7 @@ const Features = () => {
             <Card className="p-6">
               <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
                 <img 
-                  src="src\assets\nutrition-plans-app.jpg" 
+                  src={img3} 
                   alt="Nutrition Planning Interface"
                   className="w-full h-full object-cover"
                 />
