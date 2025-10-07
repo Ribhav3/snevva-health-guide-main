@@ -161,7 +161,7 @@ const Features = () => {
             <Card className="p-6">
               <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
                 <img 
-                  src="/src/assets/health-overview-app.jpg" 
+                  src="src/assets/health-overview-app.jpg" 
                   alt="Health Overview Dashboard"
                   className="w-full h-full object-cover"
                 />
@@ -173,7 +173,7 @@ const Features = () => {
             <Card className="p-6">
               <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
                 <img 
-                  src="/src/assets/womens-health-tracking.jpg" 
+                  src="\src\assets\womens-health-tracking.jpg" 
                   alt="Women's Health Tracking"
                   className="w-full h-full object-cover"
                 />
@@ -185,7 +185,7 @@ const Features = () => {
             <Card className="p-6">
               <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
                 <img 
-                  src="/src/assets/nutrition-plans-app.jpg" 
+                  src="src\assets\nutrition-plans-app.jpg" 
                   alt="Nutrition Planning Interface"
                   className="w-full h-full object-cover"
                 />

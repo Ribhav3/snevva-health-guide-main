@@ -98,11 +98,11 @@ const Footer = () => {
               <div className="mt-6">
                 <p className="text-background text-sm mb-3 font-medium">Download the app</p>
                 <div className="flex flex-col space-y-2">
-                  <Button variant="outline" size="sm" className="justify-start text-background border-background/20 hover:bg-background/10 hover:text-background">
+                  <Button variant="outline" size="sm" className="justify-start text-black border-background/20 hover:bg-background/10 hover:text-background">
                     <Smartphone className="h-4 w-4 mr-2" />
                     App Store
                   </Button>
-                  <Button variant="outline" size="sm" className="justify-start text-background border-background/20 hover:bg-background/10 hover:text-background">
+                  <Button variant="outline" size="sm" className="justify-start text-black border-background/20 hover:bg-background/10 hover:text-background">
                     <Monitor className="h-4 w-4 mr-2" />
                     Google Play
                   </Button>
